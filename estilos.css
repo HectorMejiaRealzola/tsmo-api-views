@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.title_cotiza{
+    font-size: 4rem;
+    color: #184A7C;
+    margin-left: 5rem;
+}
+
+.input:focus{
+    
+}
+
+.cajaCP{
+    background-image:url(/VECTORES-PAGINA/vector-27.png) , url(/VECTORES-PAGINA/vector-30.png);
+    background-repeat: no-repeat;
+    background-size: 45rem;
+    background-position: left;
+}
+
+.title_cotizar{
+    margin-left: 9rem;
+}
+
+.titulo_cotizar{
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    margin-left: 7rem;
+}
+
+.label_cpOrigen{
+    font-size: 1.2rem;
+    color: #184A7C;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    padding-right: 2rem;
+}
+
+.input_cpOrigen{
+    margin-top: 3rem;
+    margin-left: -2rem;
+    border-radius: .4rem;
+    border: #184A7C;
+    background: none;
+    border-style:solid ;
+    
+}
+
+.label_cpDestino{
+    font-size: 1.2rem;
+    color: #184A7C;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+
+.input_cpDestino{
+    margin-top: 3rem;
+    margin-left: -2rem;
+    border-radius: .4rem;
+    border: #184A7C;
+    background: none;
+    border-style:solid ;
+}
+
+.vector-26 img{
+    margin-top: 2.5rem;
+    width: 3rem;
+}
+
+.con_cobertura{
+    font-size: 1.1rem;
+    margin-top: 3.3rem;
+    color: #1ba32d;
+}
+
+.recoleccion{
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+
+.recoleccion h6{
+    font-size: 1.2rem;
+    color: #184A7C;
+    margin-left: -3rem;
+    margin-bottom: 2rem;
+}
+
+.con_recoleccion{
+    margin-left: 1rem;
+    margin-top: -.3rem;
+}
+
+.extracosto{
+    margin-left: .5rem;
+    font-size: .7rem;
+}
+.sin_recoleccion{
+    margin-left: 1rem;
+}
+
+.sin_rCosto{
+    margin-left: .5rem;
+    margin-top: .3rem;
+    font-size: .7rem;
+}
+
+.entrega{
+    
+}
