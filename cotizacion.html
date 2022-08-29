@@ -1,0 +1,215 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="cotizacion.css">
+    <body>
+        <div class="container border">
+            <div class="row">
+                <div class="col-4 col-sm-4 "></div>
+                <div class="col-4 col-sm-4 ">
+                    <c class="title_cotiza">COTIZA</h1>
+                </div>
+                <div class="col-4 col-sm-4 "></div>
+            </div>
+        </div>
+        <--
+        <div class="container  mt-3 cajaCP ">
+            <h4 class="title_cotizar">¡Realiza la cotización de tu envio!</h4>  
+            <div class="row" style="background-image: url(VECTORES-PAGINA/vector-30.png); background-size: contain; background-repeat: no-repeat;">
+            <div class="col-6  bg-primar  p-3 border">
+                <h6 class="titulo_cotizar">Ingresa datos de origen, destino y paquete a cotizar.</h6>
+                <div class="row "></div> 
+                <form action="" method="post">
+                    <div class="datosOrigen row pt-2 ms-6 ">
+                        <div class="col-6">
+                            <label for="" class="label_cpOrigen">Código Postal Origen:</label>
+                        </div>
+                        <div class="col-6">
+                            <input type="text" class="input_cpOrigen" placeholder="Ej.07410" style="width:100px;">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="" class="label_cpDestino">Código Postal de destino:</label>
+                        </div>
+                        <div class="col-6">
+                            <input type="text" class="input_cpDestino" placeholder="Ej.07420" style="width:100px;">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6"></div>
+                        <div class="col-1 vector-26">
+                            <img src="/VECTORES-PAGINA/vector-26.png" alt="">
+                        </div>
+                        <div class="col-4">
+                            <h6 class="con_cobertura">Tenemos Cobertura</h6>
+                        </div>
+                    </div>
+                    <div class="row recoleccion">
+                        <div class="col-12">
+                            <h6 class="">Tipo de Recolección:</h6>
+                        </div>
+                        <div class="row container d-flex">
+                            <div class="container d-flex">
+                            <input type="radio" name="tipoRecoleccion" id="" class="">
+                            <label for="" class="con_recoleccion">Domicilio</label>
+                            <p class="extracosto">(Se agregará un costo extra)</p>
+                        </div>
+                        <div class="d-flex">
+                            <input type="radio" name="tipoRecoleccion" id="" class="">
+                            <label for="" class="sin_recoleccion">Sin recolección, se lleva a ocurre </label>
+                            <p class="sin_rCosto">($0.00 MXN)</p>
+                        </div>
+                        </div>
+                    </div> <br>
+                    <div class="row entrega"> 
+                        <div class="col-12">
+                            <h6>Tipo de Entrega:</h6>
+                        </div>
+                        <div class="row d-flex">
+                            <div>
+                            <input type="radio" name="tipoEntrega" id="" class="">
+                            <label for="">Domicilio.</label> <br>
+                        </div>
+                        <div>
+                            <input type="radio" name="tipoEntrega" id="" class="">
+                            <label for="">Sin entrega, se lleva a ocurre.</label>
+                        </div>
+                        </div>
+                    </div> <br>
+                    <div class="row">
+                        <div class="col-12">
+                            <h6>Tipo de Envio:</h6>
+                        </div>
+                        <div class="row d-flex">
+                            <div>
+                                <input type="radio" name="tipoEnvio" id="" class="">
+                                <label for="">Sobre.</label> <br>
+                            </div>
+                            <div>
+                                <input type="radio" name="tipoEnvio" id="" class="">
+                                <label for="">Paquete.</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="tipoEnvio" id="" class="">
+                                <label for="">Pallet.</label>
+                            </div>
+                        </div>
+                        
+                    </div>
+                
+            </div>
+            <div class="medidas col-6 border bg-dar p-3">
+                <div class="row border">row1</div>
+                <div class="row border">row2
+                    <img src="/GIF-APP/cotizacion.gif" alt="">
+                </div>
+                <div class="row border">row3</div>
+                <div class="row ">
+                    <h6>Tamaño del paquete</h6>
+                    <div class="row">
+                        <div class="col-4 ">
+                            <div class="row">
+                                <div class="col-6 ">
+                                    <label for="Length">Largo (cm):</label>
+                                </div>
+                                <div class="col-6 ">
+                                    <input type="text" name="" id="" style="width: 50px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col-6 order">
+                                    <label for="Length">Ancho (cm):</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" name="" id="" style="width: 50px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 ">
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="Length">Alto (cm):</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" name="" id="" style="width: 50px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row border">row5</div>
+                <div class="row border">
+                    <h6>Apariencia del paquete</h6>
+                    <div class="row">
+                        <div class="col-4 ">
+                            <div class="row">
+                            <div class="col-6 ">
+                                <label for="Length">Peso (kg):</label>
+                            </div>
+                            <div class="col-6 ">
+                                <input type="text" name="" id="" style="width: 50px;">
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                            <div class="col-6 order">
+                                <label for="Length">Valor ($ MXN):</label>
+                            </div>
+                            <div class="col-6">
+                                <input type="text" name="" id="" style="width: 50px;"><br>
+                                <p>INGRESAR EL VALOR DEL CONTENIDO <br> SI DESEAS ASEGURAR EL ENVIO</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-4 ">
+                            <div class="row">
+                            <div class="col-6">
+                                <label for="Length">Cantidad:</label>
+                            </div>
+                            <div class="col-6">
+                                <input type="text" name="" id="" style="width: 50px;">
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row border">row7</div>
+                <div class="row border">
+                    <div class="col-4 border">aa</div>
+                    <div class="col-4 border">aa</div>
+                    <div class="col-4 border">aa</div>     
+                </div>
+            </div>
+            </form>
+            </div>
+        </div>
+        
+        <div class="container border">
+            <div class="row border">
+            <div class="col-9 border">
+                Column
+            </div>
+            <div class="col border">
+                Column
+            </div>
+            <div class="col border">
+                Column
+            </div>
+            </div>
+        </div>
+    </body>
+    </html>
+

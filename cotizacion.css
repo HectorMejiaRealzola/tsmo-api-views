@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Raleway', sans-serif;
+    flex-wrap: wrap;
 }
 
 .title_cotiza{
@@ -10,17 +11,13 @@ body{
     margin-left: 5rem;
 }
 
-.input:focus{
-    
-}
 
-.cajaCP{
-    background-image:url(/VECTORES-PAGINA/vector-27.png) , url(/VECTORES-PAGINA/vector-30.png);
-    background-repeat: no-repeat;
-    background-size: 45rem;
-    background-position: left;
-}
+img .ala-tsmo{
+    width: 2rem;
+    height: 20rem;
+    size: contain;
 
+}
 .title_cotizar{
     margin-left: 9rem;
 }
@@ -107,6 +104,25 @@ body{
     font-size: .7rem;
 }
 
-.entrega{
-    
+@media (max-width:2000px){
+    body{
+        margin-top: 30rem;
+        font-size: .1rem;
+    }
+    .vector-26 img{
+        width:2rem ;
+    }
+    .label_cpOrigen{
+        font-size: .7rem;
+        
+    }
+    .input_cpOrigen{
+        margin-left:7rem;
+    }
+    .datosOrigen{
+        flex-direction: column;
+    }
+    .title_cotizar{
+        font-size: 1.3rem;
+    }
 }
