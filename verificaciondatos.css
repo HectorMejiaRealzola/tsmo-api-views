@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+
+body{
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.costoEnvio{
+    font-weight: 600;
+    font-size: 1.3rem;
+    border-style: solid;   
+    border-color: #de0b18;
+}
+
+.monto{
+    color:#21527d;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.datosPago{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.verDatos{
+    width: 100rem;
+    height: 100rem;
+    size: cover;
+    border-radius: 2.3rem;
+    box-shadow:20px 20px #184A7C;
+    background-image: url(/img/vector-27.png) ;
+    background-color: #a5a4a458;
+    background-size: 70rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 4rem;
+}
+
+.botonPagar button{
+    border-radius: 6px;
+    background-color: #de0b18;
+    border: none;
+    color: #FFFFFF;
+    box-shadow: .5rem .5rem #8e1823;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: .6rem;
+    width: 14rem;
+    height: 3rem;
+    cursor: pointer;
+    margin-left: -.5rem;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .1rem;
+    margin-top: 10.3rem;
+    margin-left: 30rem;
+}
+
+@media (max-width: 1400px) {
+    .botonPagar button {
+        margin-left: 27rem;}
+}
+
+@media (max-width: 1200px) {
+    .botonPagar button {
+        margin-left: 22rem;}
+}
+
+@media (max-width: 992px) {
+    .verDatos {
+        height: 150rem;
+        background-size: 50rem; }
+}

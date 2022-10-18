@@ -35,118 +35,62 @@
                   <h3>Destino</h3>
               </div>
         </div>
-    <div class="container">
-        <form method="post">
+        <div class="container">
             <div class="row ms-5">
-              <div class="col">
-                <label for="remitente">Remitente:</label><br>
-                <input type="text" class="form-control ms-4" id="remitente" placeholder="Ej. Mario López" name="remitente">
-              </div>
-            <div class="col">
-                <label for="destinatario">Destinatario:</label>
-                <input type="text" class="form-control ms-4" id="destinatario" placeholder="Ej. Javier Vargas" name="destinatario">
+                <div class="col-6 ">
+                    <form method="post">
+                        <label for="remitente">Remitente:</label><br>
+                        <input type="text" class="form-control ms-4" id="remitente" placeholder="Ej. Mario López" name="remitente">
+                        <label for="mailRemitente">Email:</label>
+                        <input type="text" class="form-control ms-4" id="mailRemitente" placeholder="Ej. mario_l@tsmo.com.mx " name="remitente">
+                        <label for="telRemitente">Telefono:</label>
+                        <input type="text" class="form-control ms-4" id="telRemitente" placeholder="Ej. 55-1122-3344 " name="remitente">
+                        <label for="estadoRemitente">Estado:</label>
+                        <input type="text" class="form-control ms-4" id="estadoRemitente" placeholder="Ej. Ciudad de México " name="remitente">
+                        <label for="municipioRemitente">Municipio/Delegación/Ciudad:</label>
+                        <input type="text" class="form-control ms-4" id="municipioRemitente" placeholder="Azcapotzalco " name="remitente">
+                        <label for="cpRemitente">Codigo Postal:</label>
+                        <input type="text" class="form-control ms-4" id="cpRemitente" placeholder="Ej. 02128 " name="remitente">
+                        <label for="colRemitente">Colonia:</label>
+                        <input type="text" class="form-control ms-4" id="colRemitente" placeholder="Nueva El Rosario" name="remitente">
+                        <label for="calleRemitente">Calle:</label>
+                        <input type="text" class="form-control ms-4" id="calleRemitente" placeholder="Pozo pedregal" name="remitente">
+                        <label for="extRemitente">Número exterior:</label>
+                        <input type="text" class="form-control ms-4" id="extRemitente" placeholder="111 " name="remitente">
+                        <label for="intRemitente">Numero Interior:</label>
+                        <input type="text" class="form-control ms-4" id="calleRemitente" placeholder="7 " name="remitente">
+                        <label for="refRemitente">Referencia (entre calles):</label>
+                        <input type="text" class="form-control ms-4" id="calleRemitente" placeholder="Campo de horcón y Xicoténcatl " name="remitente">
+                    </form>
+                </div>
+                <div class="col-6 ">
+                    <form method="post">
+                        <label for="destinatario">Destinatario:</label><br>
+                        <input type="text" class="form-control ms-4" id="destinatario" placeholder="Ej. Javier Vargas" name="destinatario">
+                        <label for="mailDestinatario">Email:</label>
+                        <input type="text" class="form-control ms-4" id="mailDestinatario" placeholder="Ej. jvargas@tsmo.com.mx" name="destinatario">
+                        <label for="telDestinatario">Telefono:</label>
+                        <input type="text" class="form-control ms-4" id="telDestinatario" placeholder="Ej. 55-1122-3344" name="destinatario">
+                        <label for="estadoDestinatario">Estado:</label>
+                        <input type="text" class="form-control ms-4" id="estadoDestinatario" placeholder="Ej. Nuevo León" name="destinatario">
+                        <label for="municipioRestinatario">Municipio/Delegación/Ciudad:</label>
+                        <input type="text" class="form-control ms-4" id="municipioRestinatario" placeholder="Monterrey" name="destinatario">
+                        <label for="cpDestinatario">Codigo Postal:</label>
+                        <input type="text" class="form-control ms-4" id="cpDestinatario" placeholder="Ej.64550" name="destinatario">
+                        <label for="colDestinatario">Colonia:</label>
+                        <input type="text" class="form-control ms-4" id="colDestinatario" placeholder="Cantúr" name="destinatario">
+                        <label for="calleDestinatario">Calle:</label>
+                        <input type="text" class="form-control ms-4" id="calleDestinatario" placeholder="Segunda de San Francisco" name="destinatario">
+                        <label for="extDestinatario">Número exterior:</label>
+                        <input type="text" class="form-control ms-4" id="extDestinatario" placeholder="1123" name="destinatario">
+                        <label for="intDestinatario">Numero Interior:</label>
+                        <input type="text" class="form-control ms-4" id="intDestinatario" placeholder="1" name="destinatario">
+                        <label for="refDestinatario">Referencia (entre calles):</label>
+                        <input type="text" class="form-control ms-4" id="refDestinatario" placeholder="Álvaro Obregón y Platón Sánchez" name="destinatario">
+                    </form>
+                </div>
             </div>
-            </div>
-            <div class="row ms-5">
-                <div class="col">
-                  <label for="mailRemitente">Email:</label>
-                  <input type="text" class="form-control ms-4" id="mailRemitente" placeholder="Ej. mario_l@tsmo.com.mx " name="remitente">
-              </div>
-              <div class="col">
-                  <label for="mailDestinatario">Email:</label>
-                  <input type="text" class="form-control ms-4" id="mailDestinatario" placeholder="Ej. jvargas@tsmo.com.mx" name="destinatario">
-              </div>
-              </div>
-              <div class="row ms-5">
-                <div class="col">
-                  <label for="telRemitente">Telefono:</label>
-                  <input type="text" class="form-control ms-4" id="telRemitente" placeholder="Ej. 55-1122-3344 " name="remitente">
-              </div>
-              <div class="col">
-                  <label for="telDestinatario">Telefono:</label>
-                  <input type="text" class="form-control ms-4" id="telDestinatario" placeholder="Ej. 55-1122-3344" name="destinatario">
-              </div>
-              </div>
-              <div class="row ms-5">
-                <div class="col">
-                  <label for="estadoRemitente">Estado:</label>
-                  <input type="text" class="form-control ms-4" id="estadoRemitente" placeholder="Ej. Ciudad de México " name="remitente">
-              </div>
-              <div class="col">
-                  <label for="estadoRestinatario">Estado:</label>
-                  <input type="text" class="form-control ms-4" id="estadoRestinatario" placeholder="Ej. Nuevo León" name="destinatario">
-              </div>
-              </div>
-              <div class="row ms-5">
-                <div class="col">
-                  <label for="municipioRemitente">Municipio/Delegación/Ciudad:</label>
-                  <input type="text" class="form-control ms-4" id="municipioRemitente" placeholder="Azcapotzalco " name="remitente">
-              </div>
-              <div class="col">
-                  <label for="municipioRestinatario">Municipio/Delegación/Ciudad:</label>
-                  <input type="text" class="form-control ms-4" id="municipioRestinatario" placeholder="Monterrey" name="destinatario">
-              </div>
-              </div>
-              <div class="row ms-5">
-                <div class="col">
-                  <label for="cpRemitente">Codigo Postal:</label>
-                  <input type="text" class="form-control ms-4" id="cpRemitente" placeholder="Ej. 02128 " name="remitente">
-              </div>
-              <div class="col">
-                  <label for="cpDestinatario">Codigo Postal:</label>
-                  <input type="text" class="form-control ms-4" id="cpDestinatario" placeholder="Ej.64550" name="destinatario">
-              </div>
-              </div>
-              <div class="row ms-5">
-                <div class="col">
-                  <label for="colRemitente">Colonia:</label>
-                  <input type="text" class="form-control ms-4" id="colRemitente" placeholder="Nueva El Rosario" name="remitente">
-              </div>
-              <div class="col">
-                  <label for="colDestinatario">Colonia:</label>
-                  <input type="text" class="form-control ms-4" id="colDestinatario" placeholder="Cantúr" name="destinatario">
-              </div>
-              </div>
-              <div class="row ms-5">
-                <div class="col">
-                  <label for="calleRemitente">Calle:</label>
-                  <input type="text" class="form-control ms-4" id="calleRemitente" placeholder="Pozo pedregal" name="remitente">
-              </div>
-              <div class="col">
-                  <label for="calleDestinatario">Calle:</label>
-                  <input type="text" class="form-control ms-4" id="calleDestinatario" placeholder="Segunda de San Francisco" name="destinatario">
-              </div>
-              </div>
-              <div class="row ms-5">
-                <div class="col">
-                  <label for="extRemitente">Número exterior:</label>
-                  <input type="text" class="form-control ms-4" id="extRemitente" placeholder="111 " name="remitente">
-              </div>
-              <div class="col">
-                  <label for="extDestinatario">Número exterior:</label>
-                  <input type="text" class="form-control ms-4" id="extDestinatario" placeholder="1123" name="destinatario">
-              </div>
-              </div>
-              <div class="row ms-5">
-                <div class="col">
-                  <label for="calleRemitente">Numero Interior:</label>
-                  <input type="text" class="form-control ms-4" id="calleRemitente" placeholder="7 " name="remitente">
-              </div>
-              <div class="col">
-                  <label for="calleDestinatario">Numero Interior:</label>
-                  <input type="text" class="form-control ms-4" id="calleDestinatario" placeholder="1" name="destinatario">
-              </div>
-              </div>
-              <div class="row ms-5">
-                <div class="col">
-                  <label for="calleRemitente">Referencia (entre calles):</label>
-                  <input type="text" class="form-control ms-4" id="calleRemitente" placeholder="Campo de horcón y Xicoténcatl " name="remitente">
-              </div>
-              <div class="col">
-                  <label for="calleDestinatario">Referencia (entre calles):</label>
-                  <input type="text" class="form-control ms-4" id="calleDestinatario" placeholder="Álvaro Obregón y Platón Sánchez" name="destinatario">
-              </div>
-              </div>
+        </div>
               <div class="row d-flex justify-content-center">
                 <button type="submit" class="btn enviar"> Siguiente </button>
               </div>
@@ -155,5 +99,6 @@
     </div>
     
         <button type="button" class="btn btn-outline-danger back"> Atrás </button>
+
 </body>
 </html>

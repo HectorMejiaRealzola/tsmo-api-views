@@ -13,54 +13,54 @@
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <h1 class="h1">DATOS DE <strong>ENVIO</strong></h1>
+                <h1 class="h1 titleEnvio">DATOS DE <strong>ENVIO</strong></h1>
             </div>
         </div>
     </div>
     <main class="container align-items-center alto-100 mt-5">
         <div class="row">
             <div class="col-12 col-lg-2"></div>
-            <div class="formulario col-12 col-lg-8 border">
+            <div class="formulario col-12 col-lg-8 ">
                 <div class="row">
-                    <h3 class="h3 titleDatos text-center">Datos de envio</h3>
+                    <h3 class="h3 titleDatos text-center mt-4 mb-3">Datos de envio</h3>
                 </div>
                 <form method="post">
-                    <div class="row">
+                    <div class="row ms-2">
                         <div class="col-12">
-                          <label for="remitente">Tipo de recoleccion</label>
-                          <div class="row">
-                            <div class="col-5 d-inline-flex border mt-3">
+                          <label for="remitente" class="titles">Tipo de recoleccion</label>
+                          <div class="row ms-4">
+                            <div class="col-5 border mt-3">
                                 <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
                                 <label class="form-check-label ms-2" for="radio1">Domicilio</label>
-                                <p class="extraCost ">(Se agregará un costo extra)</p>
+                                <br><p class="extraCost ">(Se agregará un costo extra)</p>
                             </div>
-                            <div class="col-7 d-inline-flex border mt-3">
+                            <div class="col-7 border mt-3">
                                 <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
-                                <label class="form-check-label ms-2" for="radio1">Sin recolección, se lleva a ocurre</label>
-                                <p class="extraCost ">($0.00 MXN)</p>
+                                <label class="form-check-label ms-2" for="radio1">Sin recolección</label>
+                                <br><p class="extraCost ">(Se lleva a ocurre $0.00 MXN)</p>
                             </div>
                           </div>
                       </div>
                     </div>
-                    <div class="row ms-">
+                    <div class="row ms-2">
                         <div class="col-12">
-                          <label for="remitente">Tipo de recoleccion</label>
-                          <div class="row">
-                            <div class="col-5 d-inline-flex border mt-3">
+                          <label for="remitente" class="titles mt-2">Tipo de entrega</label>
+                          <div class="row ms-4">
+                            <div class="col-5 d-inline-flex mt-3">
                                 <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
                                 <label class="form-check-label ms-2" for="radio1">Domicilio</label>
-                                <p class="extraCost ">(Se agregará un costo extra)</p>
                             </div>
-                            <div class="col-7 d-inline-flex border mt-3">
+                            <div class="col-7 border mt-3">
                                 <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
-                                <label class="form-check-label ms-2" for="radio1">Sin recolección, se lleva a ocurre</label>
+                                <label class="form-check-label ms-2" for="radio1">Sin entrega</label>
+                                <br><p class="extraCost ">(Se lleva a ocurre)</p>
                             </div>
                           </div>
                       </div>
                     </div>
-                    <div class="row">
+                    <div class="row ms-2">
                         <div class="col-12">
-                          <label for="remitente">Tipo de recoleccion</label>
+                          <label for="remitente" class="titles mt-3">Tipo de recoleccion</label>
                           <div class="row">
                             <div class="col p-3">
                                 <input type="radio" class="form-check-input ms-5" id="radio1" name="optradio" value="option1">
@@ -74,50 +74,50 @@
                                 <input type="radio" class="form-check-input ms-5" id="radio1" name="optradio" value="option1">
                                 <label class="pallet form-check-label ms-2" for="radio1">Pallet</label>
                             </div>
-                            <div class="col-12 d-inline-flex border mt-3">
+                            <div class="col-12 d-inline-flex mt-3">
                             </div>
                           </div>
                       </div>
                     </div>
-                    <div class="row">
+                    <div class="row ms-2">
                         <div class="col text-center">
                             <h6 class="h6">Tamaño del paquete</h3>
                         </div>
                         <div class="col-12">
                             <div class="row">
                               <div class="col p-3 d-inline-flex">
-                                  <label class="sobre form-check-label" for="radio1">Largo (cm):</label>
+                                  <label class="sobre titles form-check-label" for="radio1">Largo (cm):</label>
                                   <input type="text" class="ms-2" id="largo" name="optradio">
                               </div>
                               <div class="col p-3 d-inline-flex">
-                                <label class="sobre form-check-label" for="radio1">Ancho (cm):</label>
+                                <label class="sobre titles form-check-label" for="radio1">Ancho (cm):</label>
                                 <input type="text" class="ms-2" id="ancho" name="optradio">
                               </div>
                               <div class="col p-3 d-inline-flex">
-                                <label class="sobre form-check-label" for="radio1">Alto (cm):</label>
+                                <label class="sobre titles form-check-label" for="radio1">Alto (cm):</label>
                                 <input type="text" class="ms-2" id="alto" name="optradio">
                               </div>
-                              <div class="col-12 d-inline-flex border mt-3">
+                              <div class="col-12 d-inline-flex mt-3">
                               </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row ms-5">
                         <div class="col text-center">
                             <h6 class="h6">Aspectos del paquete</h3>
                         </div>
                         <div class="col-12">
                             <div class="row">
                               <div class="col p-3 d-inline-flex flex-column">
-                                  <div><label class="sobre form-check-label" for="radio1">Peso (kg):</label></div>
+                                  <div><label class="sobre titles form-check-label" for="radio1">Peso (kg):</label></div>
                                   <div><input type="text" class="mt-2 ms-2" id="largo" name="optradio"></div>
                               </div>
                               <div class="col p-3 d-inline-flex flex-column">
-                                <div><label class="sobre form-check-label" for="radio1">Valor ($MXN):</label></div>
+                                <div><label class="sobre titles form-check-label" for="radio1">Valor ($MXN):</label></div>
                                 <div><input type="text" class="mt-2 ms-2" id="ancho" name="optradio"></div>
                               </div>
                               <div class="col p-3 d-inline-flex flex-column">
-                                <div><label class="sobre form-check-label" for="radio1">Cantidad:</label></div>
+                                <div><label class="sobre titles form-check-label" for="radio1">Cantidad:</label></div>
                                 <div><input type="text" class="mt-2 ms-2" id="alto" name="optradio"></div>
                               </div>
                               <div class="col-12 d-inline-flex border mt-3">
@@ -125,29 +125,38 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row ms-2">
                         <div class="col-12 text-center">
                             <p class="seguro">Ingresa valor del contenido si se desea asegurar el envío.</p>
                         </div>
                     </div>
                     <div class="row mt-4">
                         <div class="col-12">
-                          <label class="container text-center" for="remitente">Paqueteria a realizar:</label>
-                          <div class="row">
-                            <div class="col-5 d-inline-flex border mt-3">
-                                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
-                                <label class="form-check-label ms-2" for="radio1">TSMO:</label>
+                          <label class="container ms-5 titles" for="remitente">Paqueteria a realizar:</label>
+                          <div class="row ms-5">
+                            <div class="col-5 d-inline-flex mt-3">
+                                <input type="radio" class="form-check-input" id="tsmo" name="optradio" value="option1">
+                                <label class="form-check-label ms-2" for="radio1">TSMO</label>
                             </div>
-                            <div class="col-7 d-inline-flex border mt-3">
-                                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
-                                <label class="form-check-label ms-2" for="radio1">Sin recolección, se lleva a ocurre</label>
+                            <div class="col-7 d-inline-flex mt-3">
+                                <input type="radio" class="form-check-input" id="envia" name="optradio" value="option1">
+                                <label class="form-check-label ms-2" for="radio1">Envia</label>
                             </div>
                           </div>
                       </div>
                     </div>
+                </div>
+                <div class="row ms-5 d-flex">
+                    <div class="col-5 "></div>
+                    <div class="col-2 ">
+                        <button type="submit" class="btn pagar"> A PAGAR </button>
+                    </div>
+                    <div class="col-5 "></div>
+                </div>
                 </form>
             </div>
         </div>
+        <button type="button" class="btn btn-outline-danger back"> Atrás </button>
     </main>
 </body>
 </html>
